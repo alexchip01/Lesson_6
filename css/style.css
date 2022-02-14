@@ -1,0 +1,414 @@
+/* &display=swap */
+@import "null.css";
+
+/*=================================================== FIGMA ===================================================*/
+
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: "Circular Std", sans-serif;
+	font-size: 18px;
+	color: #5f5f5f;
+}
+.header,
+.footer {
+	background-color: #313131;
+	color: #ffffff;
+	padding: 15px;
+	text-align: center;
+}
+.header {
+	margin-bottom: 140px;
+}
+.main {
+	max-width: 1026px;
+	margin: 0 auto;
+}
+.what {
+	text-align: center;
+}
+.title {
+	font-size: 65px;
+	font-weight: 500;
+	line-height: 1.26;
+	color: #313131;
+	margin-bottom: 20px;
+}
+.text {
+	font-size: 20px;
+	line-height: 1.25;
+	margin-bottom: 224px;
+}
+.service {
+	max-width: 508px;
+}
+.subtitle {
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+	margin-bottom: 14px;
+}
+.other {
+	line-height: 1.56;
+	margin-bottom: 131px;
+}
+.name {
+	font-weight: 700;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+	margin-bottom: 5px;
+}
+.manager {
+	line-height: 1.3;
+	color: #b8b8b8;
+	margin-bottom: 67px;
+}
+.image {
+	margin-bottom: 141px;
+}
+
+/*=================================================== FIGMA ===================================================*/
+
+/*================================================== POLYGON ==================================================*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "MatchesTypeface";
+	src: url("../fonts/MatchesTypeface-Regular.woff2") format("woff2"), url("../fonts/MatchesTypeface-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Avdirabold";
+	src: url("../fonts/avdira_b-webfont.woff2") format("woff2"), url("../fonts/avdira_b-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.title-two {
+	font-family: "MatchesTypeface", cursive;
+	font-size: 40px;
+	line-height: 40px;
+	color: rgba(0, 255, 255, 0.514);
+	text-shadow: -5px 1px 1px rgba(255, 0, 0, 0.459);
+	text-transform: capitalize;
+	text-decoration: underline;
+	padding-left: 140px;
+	margin-bottom: 20px;
+}
+.text-two {
+	font-family: "Indie Flower", cursive;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(0, 60, 255);
+	text-shadow: 5px 5px 10px rgba(43, 255, 0, 0.74);
+	padding: 50px;
+}
+.subtitle-two {
+	font-family: "Ultra", serif;
+	font-size: 45px;
+	line-height: 40px;
+	color: rgb(245, 29, 0);
+	text-shadow: 5px 5px 7px rgba(0, 255, 255, 0.993);
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.pokemons {
+	font-family: "Rowdies", cursive;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+	word-spacing: 50px;
+	color: rgb(23, 201, 16);
+	text-shadow: 5px 5px 10px rgb(238, 255, 0);
+	padding: 20px 35px;
+}
+.img {
+	width: 300px;
+	margin: 50px;
+}
+.pika {
+	font-family: "Righteous", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(255, 238, 0);
+	text-shadow: 5px 5px 10px rgba(100, 78, 7, 0.719);
+	max-width: 1500px;
+	max-height: 300px;
+	overflow: auto;
+	margin: 0 0 3% auto;
+}
+.skvirtl {
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+	color: rgba(180, 87, 0, 0.781);
+	text-shadow: -5px -5px 10px rgba(136, 127, 1, 0.911);
+	max-width: 1500px;
+	height: 150px;
+	overflow: scroll;
+	margin: 0 auto 5%;
+}
+.chermon {
+	font-family: "Bangers", cursive;
+	font-size: 45px;
+	line-height: 45px;
+	color: rgb(245, 8, 0);
+	text-shadow: 5px 5px 10px rgba(255, 208, 0, 0.603);
+	max-width: 1500px;
+	max-height: 170px;
+	overflow: hidden;
+	margin: 0 0 40px -50px;
+}
+.bulba {
+	font-family: "Indie Flower", cursive;
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: 700;
+	color: rgb(79, 201, 49);
+	text-shadow: -5px 5px 5px rgba(13, 175, 175, 0.397);
+	text-transform: capitalize;
+}
+.jigly {
+	font-family: "Righteous", cursive;
+	font-size: 25px;
+	line-height: 30px;
+	color: rgb(255, 0, 170);
+	text-shadow: 5px 5px 10px rgba(204, 0, 255, 0.603);
+	margin: 20px 0;
+	padding: 0 100px;
+}
+.psydack {
+	font-family: "Oswald", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	color: rgb(0, 174, 255);
+	text-shadow: 5px 5px 10px rgb(0, 238, 255);
+	margin: 0 0 30px;
+}
+.sloy {
+	font-family: "Bebas Neue", cursive;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(132, 0, 255);
+	text-shadow: 5px 5px 10px rgb(255, 0, 191);
+	margin-bottom: 30px;
+}
+.film-one {
+	font-family: "Arimo", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 35px;
+	color: rgb(0, 0, 0);
+	text-shadow: 5px 5px 10px rgb(0, 247, 255);
+	text-decoration: line-through;
+	max-width: 1400px;
+	margin: 0 0 30px auto;
+}
+.film-two {
+	font-family: "Avdirabold", cursive;
+	font-size: 40px;
+	line-height: 50px;
+	color: rgb(176, 87, 228);
+	text-shadow: 3px -3px 4px rgba(119, 98, 136, 0.548);
+	text-transform: capitalize;
+	letter-spacing: 7px;
+	max-width: 1000px;
+	max-height: 400px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.film-three {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: "Work Sans", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 900;
+	color: rgb(255, 0, 0);
+	text-shadow: 5px 5px 1px rgba(20, 113, 220, 0.575);
+	text-transform: uppercase;
+	border: 5px solid #000;
+	box-shadow: 10px 10px 40px 10px rgb(0, 60, 255);
+}
+.games-one {
+	font-family: "Work Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 900;
+	font-style: italic;
+	color: rgb(20, 121, 33);
+	text-shadow: 5px 5px 1px rgba(1, 255, 35, 0.575);
+	text-transform: uppercase;
+	overflow: scroll;
+	max-width: 1200px;
+	height: 250px;
+	margin: 0 0 30px auto;
+}
+.games-two {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(255, 153, 0);
+	text-shadow: 5px 5px 7px rgba(1, 18, 255, 0.575);
+	text-transform: uppercase;
+}
+.link {
+	font-family: "Indie Flower", cursive;
+	font-size: 40px;
+	line-height: 45px;
+	color: aqua;
+	text-shadow: 3px 3px 2px rgba(20, 113, 220, 0.849);
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+.new-text {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(119, 0, 255);
+	text-shadow: 5px 5px 7px rgba(252, 146, 8, 0.575);
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-bottom: 7px dotted rgba(45, 219, 11, 0.685);
+}
+.new-text-two {
+	font-family: "Yellowtail Sans", sans-serif;
+	font-size: 30px;
+	line-height: 55px;
+	color: rgb(119, 0, 255);
+	text-shadow: 5px 5px 7px rgba(252, 146, 8, 0.575);
+	text-transform: uppercase;
+	border-bottom: 7px dotted rgba(45, 219, 11, 0.685);
+}
+.test-one {
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(255, 217, 0);
+	text-shadow: 5px 5px 4px rgb(0, 255, 221);
+	margin-bottom: 20px;
+	padding: 55px;
+	border: 10px dotted rgb(238, 0, 247);
+	box-shadow: inset 0px 0px 50px 10px rgb(199, 166, 21);
+	border-top: 7px solid rgb(0, 255, 221);
+}
+.test-two {
+	font-family: "MatchesTypeface", sans-serif;
+	font-size: 50px;
+	line-height: 65px;
+	color: aqua;
+	text-shadow: 5px 5px 7px rgba(177, 103, 7, 0.575);
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 10px dashed rgb(255, 94, 0);
+}
+.test-three {
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(4, 0, 255);
+	text-shadow: 5px 3px 7px rgb(255, 38, 0);
+	margin-bottom: 20px;
+	padding: 25px;
+	border: 10px double rgb(0, 204, 255);
+	border-radius: 15px;
+	opacity: 0.5;
+}
+.test-four {
+	max-width: 1000px;
+	font-family: "Avdirabold", sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	color: rgb(0, 255, 34);
+	text-shadow: 5px 3px 7px rgb(208, 255, 0);
+	margin: 0 auto 30px;
+	padding: 15px;
+	border: 5px solid rgb(255, 230, 0);
+	border-radius: 15px;
+	outline: 10px dashed rgba(0, 255, 234, 0.74);
+}
+.park {
+	margin-bottom: 20px;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 10px solid rgb(255, 174, 0);
+	opacity: 0.4;
+}
+
+/*================================================== POLYGON ==================================================*/
